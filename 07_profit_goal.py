@@ -44,7 +44,7 @@ def profit_goal(total_costs):
         # number checker
         try:
             amount = float(amount)
-            if amount <=0:
+            if amount <= 0:
                 print(error)
                 continue
 
@@ -89,5 +89,3 @@ while True:
     print(f"Profit goals target = ${target:.2f}")
     print(f"Sales target = ${sales_target:.2f}")
     print()
-
-
